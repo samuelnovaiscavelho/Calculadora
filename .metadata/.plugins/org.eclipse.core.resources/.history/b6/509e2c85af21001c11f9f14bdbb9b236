@@ -1,0 +1,16 @@
+package com.calc_app.main;
+
+import java.text.NumberFormat;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Main m = new Main(); 
+		System.out.println(NumberFormat.getInstance().format(m.div(20.0, 2.0)));
+
+	}
+	public Double div (Double num_1, Double num_2) {
+		return num_1/num_2;
+	}
+	
+}
